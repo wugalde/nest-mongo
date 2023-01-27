@@ -17,6 +17,19 @@
 ```
   docker compose up -d
 ```
+5. Clonar el archivo el __.env.template__ y renombrarlo a .env
+
+6. Llenar las variables de entorno definidas en .env
+
+7. Ejecutar la app. 
+```
+  yarn start:dev
+```
+8. Reconstruir los datos con el seed.
+```
+  localhost:3000/api/v2/seed
+```
+
 
 ## Stak Usado
 * Mongo db
